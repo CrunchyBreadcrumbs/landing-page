@@ -10,18 +10,17 @@
 
 .container {
     display: flex;
-    max-width: 1000px;
+    max-width: 1500px;
     margin: 0 auto;
     padding: 0 50px;
 }
 
-.header {
+.header, .footer {
     color: #fff;
     background-color: #1F2937;
 }
 
 .navigation {
-    display: flex;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 50px;
@@ -60,9 +59,11 @@ ul {
 
 button {
     background-color: #3882f6;
-    border-radius: 1pc;
+    border-radius: 5px;
     padding: 5px 20px;
     color: inherit;
+    width: 120px;
+    height: 30px;
 }
 
  h1 {
@@ -72,8 +73,8 @@ button {
  }
 
  .hold {
-    display: flex;
     padding-bottom: 50px;
+    justify-content: space-between;
     gap: 20px;
  }
 
@@ -86,11 +87,87 @@ img {
     max-width: 250px;
 }
 
+h2 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    padding-bottom: 30px;
+
+}
+
+.information-section {
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    gap: 15px;
+}
+
+.information-div {
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 10px;
+    width: 100%;
+}
+
+.information-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding-bottom: 50px;
+    max-width: 200px;
+}
+
 .box {
     border-color: blue;
-    width: 50px;
-    height: 50px;
+    width: 140px;
+    height: 140px;
     border-style: solid;
+    border-radius: 12px;
+}
+
+.subtext {
+    width: 140px;
+}
+
+.quote-section {
+    background-color: #E5E7EB;
+}
+
+.quote {
+    flex-direction: column;
+    gap: 8px;
+    padding: 120px;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.signature {
+    align-self: flex-end;
+    font-size: 24px;
+    font-weight: bold;
+    font-style: normal;
+}
+
+.bluebox {
+    background-color: #3882f6;
+    justify-content: space-between;
+    margin: 50px 0px;
+    padding: 35px;
+    width: 100%;
+    color: #E5E7EB;
+    border-radius: 1pc;
+}
+
+.bluebox button {
+    border-color: #E5E7EB;
+    
+}
+
+.copyright {
+    padding: 30px;
+    justify-content: center;
 }
 
 
